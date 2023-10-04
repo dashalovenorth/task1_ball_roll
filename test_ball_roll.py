@@ -1,5 +1,5 @@
 import pytest
-from ball_roll import degree
+from ball_roll import degree #from code_roll import degree
 
 tests = (
     (1, 1, 1, 1, 13.6783597917156),
