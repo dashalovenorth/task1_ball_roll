@@ -15,7 +15,7 @@ def degree(a: float, t: float, r: float, V: float) -> float:
     S = V * t + (a * t ** 2) / 2
     C = 2 * math.pi * r
     radians = S / C
-    degrees = math.degrees(radians)
+    degrees = math.degrees(radians) # degrees = math.degrees(radians).__round__
     return degrees
 
 # a = 10
